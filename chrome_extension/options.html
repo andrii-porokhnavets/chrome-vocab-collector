@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Train vocab</title>
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+</head>
+<body>
+<div class="container-fluid p-5">
+
+    <h2 class="text-center m-2 mb-4">List of collected phases to learn</h2>
+
+    <div class="row">
+        <div class="col-8 pr-5">
+            <table class="table table-hover">
+                <thead>
+                <tr>
+                    <th>#</th>
+                    <th>Phase</th>
+                    <th>Translation</th>
+                    <th>Action</th>
+                </tr>
+                </thead>
+                <tbody id="words-table-body">
+
+                </tbody>
+            </table>
+            <div class="text-right">
+                <button id="clear_btn" class="btn btn-danger" type="button">Clear</button>
+                <button id="save_btn" class="btn btn-primary" type="button">Save</button>
+            </div>
+        </div>
+        <div class="col-4 pl-5">
+            <div class="card">
+                <div class="card-body">
+                    <ul class="list-unstyled" id="content-for-quizlet"></ul>
+                </div>
+            </div>
+            <div class="text-right mt-4">
+                <button id="copy_btn" class="btn btn-primary" type="button">Copy and Open</button>
+            </div>
+        </div>
+    </div>
+
+</div>
+
+<script src="options.js"></script>
+</body>
+</html>
